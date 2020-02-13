@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* =========== Presets =========== */
+
+
+/* =========== Header =========== */
+
+
+/* =========== Message From Top =========== */
+header .msg-top {
+    width: 100%;
+    float: left;
+    background-color: rgb(64, 64, 64);
+}
+header .msg-top picture{
+    width: 100%;
+    float: left;
+}
+header .msg-top picture source, img{
+    display: block;
+    margin: 0 auto;
+}
+
+/* =========  // Message From Top ========= */
+
+/* ========= // Header ========= */
