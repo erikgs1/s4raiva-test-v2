@@ -1,38 +1,85 @@
 * {
     padding: 0;
     margin: 0;
+    list-style: none;
 }
 
 /* =========== Presets =========== */
 
 
 /* =========== Header =========== */
-
-
-/* =========== Message From Top =========== */
 header{
-    width: 100%;
     float: left;
+    width: 100%;
 }
+/* =========== Message From Top =========== */
 header .msg-top {
-    width: 100%;
-    float: left;
     background-color: rgb(64, 64, 64);
+    float: left;
+    width: 100%;
 }
 header .msg-top picture{
-    width: 100%;
     float: left;
+    width: 100%;
 }
 header .msg-top picture source, img{
     display: block;
     margin: 0 auto;
 }
+/* =========  // Message From Top ========= */
+
+/* =========  Search Bar ========= */
 header .search{
-    width: 100%;
-    float: left;
     background-color: #fd0;
+    float: left;
+    width: 100%;
+}
+/* =========  Search Logo ========= */
+header .search .logo-top{
+    float: left;
+    padding: 1% 1.5% 1% 0.5%;
+    width: 15%;
+}
+header .search .logo-top a{
+    float: left;
+}
+header .search .logo-top a img{
+    width: 100%;
+}
+/* ========= // Search Logo ========= */
+
+/* ========= Search ========= */
+header .search .search-bar{
+    float: left;
+    width: 45%;
+}
+header .search .search-bar .search-txt{
+    float: left;
+    position: relative;
+    width: 100%;
+}
+header .search .search-bar .search-txt input{
+    border: none;
+    border-radius: 5px;
+    float: left;
+    font-size: 16px;
+    margin: 2% 0 2%;
+    padding: 10px 0 10px 10px;
+    width: calc(100% - 10px);
 }
 
-/* =========  // Message From Top ========= */
+header .search .search-bar .search-txt span{
+    position: absolute;
+    top: 25%;
+    right: -2%;
+}
+header .search .search-bar .search-txt span img{
+    
+    width: 40%;
+}
+}
+/* ========= // Search ========= */
+
+/* =========  // Search Bar ========= */
 
 /* ========= // Header ========= */
