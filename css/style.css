@@ -1,11 +1,10 @@
 * {
-    padding: 0;
-    margin: 0;
+    box-sizing: border-box;
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
-
 /* =========== Presets =========== */
-
 
 /* =========== Header =========== */
 header{
@@ -38,7 +37,7 @@ header .search{
 header .search .logo-top{
     float: left;
     padding: 1% 1.5% 1% 0.5%;
-    width: 15%;
+    width: 16%;
 }
 header .search .logo-top a{
     float: left;
@@ -51,7 +50,7 @@ header .search .logo-top a img{
 /* ========= Search ========= */
 header .search .search-bar{
     float: left;
-    width: 45%;
+    width: 46%;
 }
 header .search .search-bar .search-txt{
     float: left;
@@ -65,20 +64,66 @@ header .search .search-bar .search-txt input{
     font-size: 16px;
     margin: 2% 0 2%;
     padding: 10px 0 10px 10px;
-    width: calc(100% - 10px);
+    width: 100%;
 }
 
 header .search .search-bar .search-txt span{
     position: absolute;
-    top: 25%;
-    right: -2%;
+    top: 30%;
+    right: -1%;
 }
 header .search .search-bar .search-txt span img{
-    
     width: 40%;
 }
-}
 /* ========= // Search ========= */
+
+/* ========= Search Links ========= */
+header .search nav{
+    float: left;
+    width:38%;
+}
+header .search nav ul{
+    width: 100%;
+    float: left;
+
+}
+header .search nav ul .img-avatar{
+    float: left; 
+    width: 70%;
+}
+header .search nav ul .img-avatar img{
+    float: left;
+    margin: 5% 0 0 30%;
+    width: 8%;
+}
+header .search nav ul .img-avatar span a {
+    font-family: sans-serif;
+    margin: 5% 0 0 2%;
+    width: calc(93% - 70%);
+    font-size: 12px;
+    float: left;
+    text-decoration: none;
+    color: black;
+}
+header .search nav ul .img-heart{
+    float: left; 
+    width: 15%;
+}
+header .search nav ul .img-heart img{
+    float: right;
+    margin: 20% 25% 0 0 ;
+    width: 35%;
+}
+header .search nav ul .img-car{
+    float: right; 
+    width: 15%;
+}
+header .search nav ul .img-car img{
+    float: right;
+    margin: 20% 30% 0 0 ;
+    width: 35%;
+}
+/* ========= // Search Links ========= */
 
 /* =========  // Search Bar ========= */
 
