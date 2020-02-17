@@ -132,19 +132,20 @@ header .search nav ul .img-car img{
     float: left;
     border-bottom: 2px solid #efefef;
 }
-.main-menu .menu-drop{
+
+.main-menu .menu-dropdown{
     float: left;
     position: relative;    
     width: 18%;
     z-index: 2;
 }
-.main-menu .menu-drop .departments{
+.main-menu .menu-dropdown .departments{
     text-decoration: none;
     float: left;
     background-color: #efefef;
     width: 100%;
 }
-.main-menu .menu-drop .departments p {
+.main-menu .menu-dropdown .departments p {
     font-family: sans-serif;
     font-size: 12px;
     font-weight: bold;
@@ -156,39 +157,63 @@ header .search nav ul .img-car img{
     float: left;
     margin-top: 5px;
 }
-.main-menu .menu-drop .departments img {
+.main-menu .menu-dropdown .departments img {
     float: left;
     width: 18px;
     margin: 20px 0 0 20px;
 }
-.main-menu .menu-drop .icon-menu {
+.main-menu .menu-dropdown .icon-menu {
     width: 30px;
     height: 26px;
     float: left;
     margin: 20px 0 0 10px;   
 }
-.main-menu .menu-drop .line-menu {
+.main-menu .menu-dropdown .line-menu {
     width: 30px;
     height: 26px;
     float: left;
     margin: 14px 0 0 10px;   
 }
-.main-menu .menu-drop .line-icon {
+.main-menu .menu-dropdown .line-icon {
     float: left;
     width: 26px;
     height: 1px;
     background-color: #14171c;
     margin-top: -2px;
 }
-.main-menu .menu-drop .lines-icon{
+.main-menu .menu-dropdown .lines-icon{
     float: left;
     width: 26px;
     height: 0.8px;
     background-color:  #14171c;
     margin-top: 7px;
 }
-.sub-menu{
+.main-menu .menu-drop{
+    float: left;
+    position: relative;
+    width: 18%;
+    z-index: 2;
+}
+.main-menu .menu-dropdown .sub-menu{
+    float: left;
+    max-width: 100%;
+}
+.main-menu .menu-dropdown .sub-menu .sub-title {
+    float: left;
+    width: 100%;
+}
+.main-menu .menu-dropdown .sub-menu .sub-title p{
+    padding: 10px;
+}
+.main-menu .menu-dropdown .sub-menu div{
     display: none;
+}
+.main-menu .menu-dropdown .sub-menu .sub-title div{
+    position: absolute;
+    min-width: 1024px;
+    left: 100%;
+    top: 50px;
+
 }
 .main-menu .menu-nav{
     float: left;
@@ -200,7 +225,6 @@ header .search nav ul .img-car img{
 }
 .main-menu .menu-nav .nav-left li{
     float: left;
-    margin-top: 4%;
     width: 15%;
 }
 .main-menu .menu-nav .nav-left li a{
@@ -211,6 +235,7 @@ header .search nav ul .img-car img{
     font-weight: bold;
     text-align: center;
     text-decoration: none;
+    padding: 26% 0;
 }
 .main-menu .menu-nav .nav-left li a:hover{
     text-decoration: underline;
