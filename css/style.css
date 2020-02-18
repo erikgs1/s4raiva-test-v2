@@ -146,6 +146,9 @@ header .search nav ul .img-car img{
     background-color: #efefef;
     width: 100%;
 }
+.main-menu .menu-dropdown:hover ul{
+    display: block;
+}
 .main-menu .menu-dropdown .departments p {
     font-family: sans-serif;
     font-size: 12px;
@@ -189,18 +192,13 @@ header .search nav ul .img-car img{
     background-color:  #14171c;
     margin-top: 7px;
 }
-.main-menu .menu-drop{
-    float: left;
-    position: relative;
-    width: 18%;
-    z-index: 2;
-}
 .main-menu .menu-dropdown .sub-menu{
     position: absolute;
     top: 100%;
     left: 0;
     width: 100%;
     float: left;
+    display: none;
 }
 .main-menu .menu-dropdown .sub-menu .sub-title{
     background-color: #fff;
@@ -210,9 +208,7 @@ header .search nav ul .img-car img{
     float: left;
     cursor: pointer;
 }
-.main-menu .menu-dropdown:hover .sub-menu .sub-title{
-    display: block;
-}
+
 .main-menu .menu-dropdown:hover .sub-menu .sub-title:hover div{
     display: block;
 }
