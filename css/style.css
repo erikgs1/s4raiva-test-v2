@@ -283,6 +283,13 @@ header .search nav ul .img-car img{
     float: left;
     width: 20%;
 }
+.main-menu .menu-dropdown .sub-menu .menu-ad a{
+    margin-top: 10px;
+}
+.main-menu .menu-dropdown .sub-menu .menu-ad a img{
+    width: 100%;
+    margin: 0;
+}
 .main-menu .menu-nav{
     float: left;
     width: 82%;
