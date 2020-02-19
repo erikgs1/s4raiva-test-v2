@@ -344,6 +344,276 @@ header .search nav ul .img-car img{
 }
 
 /* ========= // Main Menu ========= */
+
 /* =========  // Search Bar ========= */
 
 /* ========= // Header ========= */
+
+/* ======== Anuncio ========= */
+.promo-ad img {
+    width: 100%;
+    float: left;
+    padding: 50px 0;
+    background-color: #efefef;
+}
+/* ===== // Anuncio ========= */
+
+/* ======== Formu ========= */
+.box-form {
+    float: left;
+    width: calc(100% - 5%);
+    margin: 0 0 0 5%;
+    padding-top: 10px;
+}
+
+.box-form .form-box-title img {
+    width: 28px;
+    float: left;
+    margin-right: 1%;
+}
+.box-form .form-box-title .form-title {
+    font-size: 26px;
+    color: #000;
+    font-weight: 400;
+}
+.box-form p {
+    margin: 20PX 0 20px 0;
+    font-size: 12px;
+}
+.box-form form select{
+    background: linear-gradient(45deg,transparent 50%,#000 0),linear-gradient(135deg,#000 50%,transparent 0),linear-gradient(90deg,#fddd2d,#fddd2d);
+    background-position: calc(100% - 21px) calc(1em + 2px),calc(100% - 16px) calc(1em + 2px),100% 0;
+    background-size: 5px 5px,5px 5px,2.5em 2.5em;
+    background-repeat: no-repeat;
+    border: thin solid #fddd2d;
+    font: 300 1em/100% Helvetica Neue,Arial,sans-serif;
+    line-height: 2em;
+    padding: 5px 3px 5px 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 10px;
+    width: 15%;
+}
+.box-form form button {
+    background-color: #fddd2d;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+/* ======== // Formulário ========= */
+/* ======== Benefits  ========= */
+
+/* ======== Frete ========= */
+.benefits {
+    background-color: #efefef;
+    float: left;
+    padding: 30px 0 20px 0;
+    width: 100%;
+}
+.benefits .frete{
+    float: left;
+    padding: 5px 0;
+    width: 50%;
+}
+.benefits .frete .car-frete{
+    float: right;
+    width: 55%
+}
+.benefits .frete .car-frete img{
+    float: left;
+    width: 56px;
+}
+.benefits .frete .car-frete h2{
+    font-size: 10px;
+}
+.benefits .frete .car-frete p {
+    font-size: 11px;
+}
+/* ======== // Frete ========= */
+
+
+.benefits .saraiva-plus{
+    border-left: 1px solid #d5d5d5;
+    float: right;
+    padding: 5px 0;
+    width: 50%;
+}
+.benefits .saraiva-plus .plus{
+    float: right;
+    width: 95%;
+}
+.benefits .saraiva-plus .plus img{
+    float: left;
+    width: 56px;
+}
+.benefits .saraiva-plus .plus h2{
+    font-size: 13px;
+}
+.benefits .saraiva-plus .plus p {
+    font-size: 11px;
+}
+/* ======== // Saraiva Plus ========= */
+/* ======== // Benefits  ========= */
+
+/* ======== Footer  ========= */
+
+/* ======== Payment  ========= */
+footer {
+    width: 100%;
+    float: left;
+}
+footer .payment{
+    float: left;
+    width: 33%;
+    padding: 20px 0 0 50px;
+}
+footer .payment p{
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: #818181;
+    padding: 50px 0 20px 0;
+}
+footer .payment .partners {
+    float: left;
+    padding: 0 20px;
+}
+footer .payment img {
+    float: left;
+    width: 43px;
+    margin-left: 10px;
+}
+/* ======== // Payment  ========= */
+footer .secure-site{
+    float: left;
+    width: 33%;
+    padding: 20px 70px 0 50px;
+}
+footer .secure-site p{
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: #818181;
+    padding: 50px 52px 20px 0;
+}
+footer .secure-site img{
+    width: 80px;
+    margin-left: 50x;
+    display: inline;
+}
+footer .socials{
+    float: left;
+    width: 33%;
+    padding: 20px 0 0 50px;
+    min-height: 242px;
+}
+footer .socials p{
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: #818181;
+    padding: 50px 100px 40px 0;
+}
+footer .socials img{
+    float: left;
+    margin-left: 10px;
+    width: 40px;
+}
+.bloco-footer {
+    float: left;
+    width: 25%;
+    min-height: 300px;
+
+}
+.box-radius {
+    float: left;
+    width: 100%;
+}
+.box-radius .col-radius{
+    width: 23%;
+    border-radius: 10px;
+    float: left;
+    background-color: #efefef;
+    margin-left: 20px;
+    min-height: 150px;
+}
+.box-radius .col-radius img{
+    width: 55px;
+    margin: 5% 0 1% 40%;
+}
+.box-radius .col-radius h1{
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: #24282b;
+}
+.box-radius .col-radius p{
+    font-size: 13px;
+    color: #7b7b7b;
+    padding: 0 60px;
+    text-align: center;
+}
+.box-radius .col-radius:hover{
+    background-color: #ccc;
+    cursor: pointer;
+}
+.box-txt {
+    float: left;
+    width: 100%;
+}
+.box-txt .bloc-txt{
+    float: left;
+    width: 20%;
+    width: 23%;
+    border-radius: 10px;
+    margin:20px 0 0 20px;
+}
+.box-txt .bloc-txt h1 {
+    font-size: 20px;
+    color: #24282b;
+    font-weight: lighter;
+    text-align: justify;
+}
+.box-txt .bloc-txt p{
+    font-size: 12px;
+    color: #7b7b7b;
+    padding: 10px 0 5px 0;
+    text-align: justify;
+
+}
+.box-txt .bloc-txt h2{
+    font-size: 14px;
+    color: #24282b;
+    font-weight: lighter;
+}
+.box-txt .bloc-txt a{
+    float: left;
+    width: 100%;
+    text-decoration: none;
+    color: #7b7b7b;
+    font-size: 12px;
+    padding: 10px 0 5px 0;
+
+}
+.box-txt .bloc-txt a:hover {
+    text-decoration: underline;
+}
+.box-txt .bloc-txt span p{
+    font-size: 10px;
+    font-weight: lighter;
+    padding: 30px 25px 0 0;
+    text-align: justify;
+    color: #24282b;
+}
+.copyright {
+    width: 100%;
+    padding: 70px 0;
+    float: left;
+    text-align: center;
+    font-size: 9px;
+    color: #24282b;
+}
+
+/* ======== // Footer  ========= */

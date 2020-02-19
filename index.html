@@ -687,12 +687,21 @@
         <img src="" alt="">
     </section>
     <!-- // Carousel-->
-
+    <!-- anuncio -->
+    <div class="promo-ad">
+        <a href="#">
+            <picture>
+            <source srcset="img/anuncio-resp.png" media="(max-width: 1024px)">
+                    <img srcset="img/anuncio.png" alt="My default image">
+            </picture>
+        </a>
+    </div>
+    <!-- // anuncio -->
     <!-- Form -->
-    <section>
-            <div class="form-title">
+    <section class="box-form">
+            <div class="form-box-title">
                 <img src="img/prancheta.png" alt="">
-                <p>Encontre sua lista de material escolar</p>
+                <p class="form-title">Encontre sua lista de material escolar</p>
             </div>
             <form>
                 <p>Busque por sua escola:</p>
@@ -755,20 +764,20 @@
      <section>
         <div class="benefits">
             <div class="frete">
-                <div>
+                <div class="car-frete">
                     <img src="img/caminhao.png" alt="FRETE GRÁTIS EM TODO O SITE
                     Veja as condições para cada categoria.">
                     <h2 >FRETE GRÁTIS EM TODO O SITE</h2>
                     <p >Veja as condições para cada categoria.</p>
                 </div>
             </div>
-            <div class="plus">
-                <div>
+            <div class="saraiva-plus">
+                <div class="plus">
                     <img src="img/saraiva-plus.png" alt="Saraiva Plus
                     A cada 500 pontos você ganha R$10,00 para
                     utilizar como quiser na Saraiva">
-                    <h2  >Saraiva Plus</h2>
-                    <p  >A cada 500 pontos você ganha R$10,00 para <br> utilizar como quiser na Saraiva</p>
+                    <h2>Saraiva Plus</h2>
+                    <p>A cada 500 pontos você ganha R$10,00 para <br> utilizar como quiser na Saraiva</p>
                 </div>
             </div>
         </div>
@@ -778,11 +787,10 @@
       <!-- Footer -->
       <footer>
             <!-- Partners -->
-            <section>
                 <!-- // Payment -->
                 <div class="payment">
                     <p>Meios de Pagamento</p>
-                    <div class="">
+                    <div class="partners">
                         <img src="img/saraiva-card1.png" alt="Meios de pagamentos">
                         <img src="img/saraiva-card2.png" alt="Meios de pagamentos">
                         <img src="img/saraiva-card3.png" alt="Meios de pagamentos">
@@ -815,7 +823,7 @@
                 <!-- Socials -->
                 <div class="socials">
                     <p>Redes Sociais</p>
-                    <div class="socials-logo">
+                    <div>
                         <a href="#"><img src="img/fb-logo.png" alt="Redes Sociais"></a>
                         <a href="#"><img src="img/twitter-logo.png" alt="Redes Sociais"></a>
                         <a href="#"><img src="img/insta-logo.png" alt="Redes Sociais"></a>
@@ -824,29 +832,28 @@
                     </div>
                 </div> 
                 <!-- // Socials -->
-            </section>
             <!-- // Partners -->
 
             <!-- Contact -->
-            <section>
+            <section >
                <!-- Box Cards --> 
-                <div>
-                    <div>
+                <div class="box-radius">
+                    <div class="col-radius">
                         <img src="img/atendimento.png" alt="Central de Atendimento">
                         <p>Central de Atendimento</p>
                         <p>Utilize nosso FAQ, chat online ou email para solucionar suas dúvidas.</p>
                     </div>
-                    <div>
+                    <div class="col-radius">
                             <img src="img/lojas.png" alt="Nossas lojas">
                             <p>Nossas Lojas</p>
                             <p>Encontre uma loja Saraiva mais perto de você.</p>
                     </div>
-                    <div>
+                    <div class="col-radius">
                         <img src="img/cartao.png" alt="Cartão Saraiva">
                         <p>Cartão Saraiva</p>
                         <p style="padding: 0 50px;">Condições Especiais para suas compras em nossas lojas e site.</p>
                     </div>
-                    <div >
+                    <div class="col-radius">
                         <img src="img/trabalhe-conosco.png" alt="Trabalhe Conosco">
                         <p>Institucional</p>
                         <p>Condições Especiais para suas compras em nossas lojas e site.</p>
@@ -854,8 +861,8 @@
                 </div>
                 <!-- //Box Cards -->
                 <!-- Box Text -->
-                <div>
-                    <div>
+                <div class="box-txt">
+                    <div class="bloc-txt">
                         <p>Central de Atendimento</p>
                         <p>Grande São Paulo</p>
                         <h2>(XX) XXXX-XXXX</h2>
@@ -867,7 +874,7 @@
                         <h2>XXXX-XXXX</h2>
                         <span><p class="items-title">Horário de atendimento das 8h às 20h, de segunda a sexta (exceto feriados)</p></span>
                     </div> 
-                    <div>
+                    <div class="bloc-txt">
                         <p>Tele vendas</p>
                         <p>Todas as regiões*</p>
                         <h2>XXXX-XXXX</h2>
@@ -875,7 +882,7 @@
                         <h2>(XX) XXXX-XXXX</h2>
                         <span><p class="items-title">*Não é necessário DDD. Custo de ligação local, mais imposto local, conforme estado de origem.</p></span>
                     </div> 
-                    <div>
+                    <div class="bloc-txt">
                         <p>Serviços</p>
                         <a href="#">&bull; Garantia Estendida</a>      
                         <a href="#">&bull; Proteção Saraiva</a>  
@@ -883,7 +890,7 @@
                         <a href="#">&bull; Venda na Saraiva</a>    
                         <a href="#">&bull; Retire na Loja</a>   
                     </div>  
-                    <div>
+                    <div class="bloc-txt">
                         <p>Institucional</p>
                         <a href="#">&bull; Política de Venda e Troca</a>      
                         <a href="#">&bull; Relações com Investidores</a>  
@@ -897,7 +904,7 @@
 
             <!-- Copyright -->
             <section>
-                <div>
+                <div class="copyright">
                     <p>As ofertas são válidas por tempo determinado e/ou enquanto durarem os estoques. Nosso serviço de entregas não permite encomendas feitas com endereçamento de Caixa Postal.<br>
                     </p>
                     <p>Os preços apresentados no site não são obrigatoriamente iguais aos apresentados na rede de lojas físicas da Saraiva, e somente são válidos para as compras efetuadas no ato de sua exibição.<br>
