@@ -348,6 +348,11 @@ header .search nav ul .img-car img{
 /* =========  // Search Bar ========= */
 
 /* ========= // Header ========= */
+/* ===== Carousel ========= */
+.carousels {
+    float: left;
+}
+/* ===== Carousel ========= */
 
 /* ======== Anuncio ========= */
 .promo-ad img {
