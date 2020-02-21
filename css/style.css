@@ -351,6 +351,10 @@ header .search nav ul .img-car img{
 /* ===== Carousel ========= */
 .carousels {
     float: left;
+    background-color: #f3f3f3;
+}
+.carousels img {
+    width: 100%;
 }
 /* ===== Carousel ========= */
 
