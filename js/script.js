@@ -15,10 +15,26 @@ $(document).ready(function(){
         autoplayTimeout:1500,
         autoplayHoverPause:true,
         responsive : {
-            768 : {
-            items:3,  
+            320 : {
+                items:1,  
+                autoplay:true,
+                },
+            480 : {
+                items:2,  
+                autoplay:true,
+                },
+            720 : {
+                items:3,  
+                autoplay:true,
+                },
+            900 : {
+            items:4,  
             autoplay:true,
-            }
+            },
+            1024 : {
+                items:5,  
+                autoplay:true,
+                }
         }
     });
 });

@@ -367,7 +367,7 @@ header .search nav ul .img-car img{
 }
 /* ===== // Anuncio ========= */
 
-/* ======== Formu ========= */
+/* ======== Form ========= */
 .box-form {
     float: left;
     width: calc(100% - 5%);
@@ -411,7 +411,108 @@ header .search nav ul .img-car img{
     padding: 10px;
     border-radius: 5px;
 }
-/* ======== // Formulário ========= */
+/* ======== // Form ========= */
+/* ======== Most Popular ========= */
+.most-popular {
+    float: left;
+    width: 100%;
+    background-color: #efefef;
+}
+.most-popular .most-title{
+    font-weight: lighter;
+    font-size: 22px;
+    color:#24282b;
+    padding: 10px 0 0 10px;
+}
+.card {
+    float: left;
+    margin-top: 50px;
+    border-left: 1px solid #efefef;
+}
+.card .card-title{
+    width: 100%;
+    float: left;
+}
+.card .card-title p{
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    color: #8fb8fc;
+    background-color: rgba(143, 184, 252, 0.1);
+    padding: 5px;
+}
+.card .img-card img{
+    display: block;
+    margin: 0 auto;
+}
+.card .txtCard {
+    width: 100%;
+    float: left;
+}
+.card .txtCard p{
+    font-size: 14px;
+    padding: 20px;
+    color: #292d30;
+    font-weight: bold;
+}
+.card .txtCard img{
+    display: block;
+    margin: 0 auto;
+}
+.card .preco-card{
+    width: 100%;
+    float: left;
+}
+.card .preco-card span{
+    margin-left: 5%;
+    width: 75%;
+}
+.card .preco-card p{
+    display: block;
+    border: 1px solid #24282b;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #24282b
+}
+.card .preco-card p:hover{
+    background-color: #fd0;
+    border: 1px solid #fd0;
+    cursor: pointer;
+    transition: all .3s;
+}
+.card-resp {
+    display: none;
+}
+/* ======== // Most Popular========= */
+
+/* ======== Departaments ========= */
+.departaments{
+    width: 100%;
+    float: left;
+    background-color: #efefef;
+    padding-top: 1%;
+}
+.departaments .dep-title{
+    width: 100%;
+    float: left;
+}
+.departaments .dep-title h1{
+    font-size: 22px;
+    color: #24282b;
+    padding: 10px 0 50px 10px;
+    font-weight: lighter;
+}
+.departaments .dep-bloc{
+    float: left;
+    margin-left: 10px;
+}
+/* ======== // Departaments ========= */
+
 /* ======== Benefits  ========= */
 
 /* ======== Frete ========= */
