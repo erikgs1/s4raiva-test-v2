@@ -422,8 +422,9 @@ header .search nav ul .img-car img{
     font-weight: lighter;
     font-size: 22px;
     color:#24282b;
-    padding: 10px 0 0 10px;
+    padding: 10px 0 50px 10px;
 }
+.carousels{background-color: #fff;}
 .card {
     float: left;
     margin-top: 50px;
@@ -462,31 +463,35 @@ header .search nav ul .img-car img{
     display: block;
     margin: 0 auto;
 }
-.card .preco-card{
+.card .price-card{
     width: 100%;
     float: left;
 }
-.card .preco-card span{
-    margin-left: 5%;
-    width: 75%;
+.card .price-card a{
+    text-decoration: none;
 }
-.card .preco-card p{
-    display: block;
+.card .price-card span{
+    margin-left: 5%;
+    float: left;
+    width: 90%;
+}
+.card .price-card p{
+    background-color: transparent;
     border: 1px solid #24282b;
+    border-radius: 5px;
+    color: #24282b;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 auto;
     padding: 15px 0;
     text-align: center;
-    border-radius: 5px;
-    background-color: transparent;
-    color: #24282b
 }
-.card .preco-card p:hover{
+.card .price-card p:hover{
     background-color: #fd0;
     border: 1px solid #fd0;
     cursor: pointer;
     transition: all .3s;
-}
-.card-resp {
-    display: none;
 }
 /* ======== // Most Popular========= */
 
