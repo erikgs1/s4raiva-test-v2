@@ -352,6 +352,7 @@ header .search nav ul .img-car img{
 .carousels {
     float: left;
     background-color: #f3f3f3;
+    padding-bottom: 10px;
 }
 .carousels img {
     width: 100%;
@@ -412,11 +413,13 @@ header .search nav ul .img-car img{
     border-radius: 5px;
 }
 /* ======== // Form ========= */
+
 /* ======== Most Popular ========= */
 .most-popular {
     float: left;
     width: 100%;
     background-color: #efefef;
+    padding-bottom: 10px;
 }
 .most-popular .most-title{
     font-weight: lighter;
@@ -517,6 +520,49 @@ header .search nav ul .img-car img{
     margin-left: 10px;
 }
 /* ======== // Departaments ========= */
+/* ======== Sppecials Themes  ========= */
+.themes {
+    width: 100%;
+    float: left;
+    background-color:#efefef;
+}
+.themes a {
+    float: left;
+    width: 15.8%;
+    margin-left: 10px;
+}
+.themes a img{
+    float: left;
+    width: 100%;
+}
+.themes .themes-title {
+    float: left;
+    width: 99%;
+    margin: 50px 0 50px 10px;
+}
+.themes .themes-title .title{
+    float: left;
+    font-weight: lighter;
+    font-size: 25px;
+    color: #24282b;
+    width: 85%;
+}
+.themes .themes-title a{
+    float: right;
+    width: 11%;
+    text-decoration: none;
+    margin-right: 14px;
+}
+.themes .themes-title a p{
+    padding: 12px 0;
+    background-color: gold;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #24282b;
+    border-radius: 5px;
+}
+/* ======== // Sppecials Themes  ========= */
 
 /* ======== Benefits  ========= */
 
