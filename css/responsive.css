@@ -1,0 +1,37 @@
+@media screen and (max-width: 1024px){
+    header .search .responsive-menu{
+        display: block;
+        height: 10px;
+        width: 10px;
+        background-color: #000;
+        float: left;
+    }
+    header .search .logo-top{
+        padding: 0;
+        width: 55%;
+        float: right;
+    }
+    header .search nav {
+    width: 30%;
+    right: 0;
+    position: absolute;
+    }
+    header .search nav ul .img-avatar{
+        display: none;
+    }
+    header .search nav ul .img-heart{
+        width: 50%;
+    }
+    header .search nav ul .img-heart img{
+        margin: 20% 15% 0 0%;
+        width: 50%;
+    }
+    header .search nav ul .img-car{
+        width: 50%;
+    }
+    header .search nav ul .img-car img{
+        margin: 20% 0 0 0;
+        width: 50%;
+        float: left;
+    }
+}

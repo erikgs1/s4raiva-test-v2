@@ -31,6 +31,7 @@ header .msg-top picture{
 header .msg-top picture source, img{
     display: block;
     margin: 0 auto;
+    width: 100%;
 }
 /* =========  // Message From Top ========= */
 
@@ -40,6 +41,11 @@ header .search{
     float: left;
     width: 100%;
 }
+/* =========== Responsive Menu =========== */
+header .search .responsive-menu{
+    display: none;
+}
+/* =========== //Responsive Menu =========== */
 /* =========  Search Logo ========= */
 header .search .logo-top{
     float: left;
