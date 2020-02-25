@@ -16,10 +16,6 @@ $(document).ready(function(){
         autoplayHoverPause:true,
         responsive : {
             320 : {
-                items:1,  
-                autoplay:true,
-                },
-            480 : {
                 items:2,  
                 autoplay:true,
                 },

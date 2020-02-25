@@ -149,7 +149,7 @@ header .search nav ul .img-car img{
     width: 18%;
     z-index: 2;
 }
-.main-menu .menu-dropdown .departments{
+.main-menu .menu-dropdown .department{
     background-color: #efefef;
     float: left;
     text-decoration: none;
@@ -158,7 +158,7 @@ header .search nav ul .img-car img{
 .main-menu .menu-dropdown:hover ul{
     display: block;
 }
-.main-menu .menu-dropdown .departments p {
+.main-menu .menu-dropdown .department p {
     background-color: #efefef;
     color: #24282b;
     display: block;
@@ -170,7 +170,7 @@ header .search nav ul .img-car img{
     padding: 15px;
     text-align: center;
 }
-.main-menu .menu-dropdown .departments img {
+.main-menu .menu-dropdown .department img {
     float: left;
     margin: 20px 0 0 20px;
     width: 18px;
@@ -504,28 +504,47 @@ header .search nav ul .img-car img{
 }
 /* ======== // Most Popular========= */
 
-/* ======== Departaments ========= */
-.departaments{
+/* ======== departments ========= */
+.departments{
     width: 100%;
     float: left;
     background-color: #efefef;
     padding-top: 1%;
 }
-.departaments .dep-title{
-    width: 100%;
+.departments .dep-title {
     float: left;
+    width: 99%;
+    margin: 1% 0 0 10px;
 }
-.departaments .dep-title h1{
-    font-size: 22px;
-    color: #24282b;
-    padding: 10px 0 50px 10px;
+.departments .dep-title .depart-title{
+    float: left;
     font-weight: lighter;
+    font-size: 25px;
+    color: #24282b;
+    width: 85%;
 }
-.departaments .dep-bloc{
+.departments .dep-title a{
+    float: right;
+    width: 11%;
+    text-decoration: none;
+    margin-right: 14px;
+    margin-bottom: 2%;
+}
+.departments .dep-title a p{
+    padding: 12px 0;
+    background-color: gold;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #24282b;
+    border-radius: 5px;
+}
+
+.departments .dep-bloc{
     float: left;
     margin-left: 10px;
 }
-/* ======== // Departaments ========= */
+/* ======== // departments ========= */
 /* ======== Sppecials Themes  ========= */
 .themes {
     width: 100%;
