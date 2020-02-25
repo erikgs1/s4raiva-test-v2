@@ -513,8 +513,8 @@ header .search nav ul .img-car img{
 }
 .departments .dep-title {
     float: left;
-    width: 99%;
-    margin: 1% 0 0 10px;
+    width: 100%;
+    margin: 50px 0 50px 0;
 }
 .departments .dep-title .depart-title{
     float: left;
@@ -522,13 +522,14 @@ header .search nav ul .img-car img{
     font-size: 25px;
     color: #24282b;
     width: 85%;
+    margin-left: 10px;
 }
 .departments .dep-title a{
     float: right;
     width: 11%;
     text-decoration: none;
-    margin-right: 14px;
     margin-bottom: 2%;
+    margin-right: 1%;
 }
 .departments .dep-title a p{
     padding: 12px 0;

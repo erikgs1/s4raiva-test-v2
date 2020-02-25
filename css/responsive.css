@@ -63,4 +63,12 @@
         margin: 0 40% 5% 35%;
         display: block;
     }
+    .departments .dep-title .depart-title{
+        width: 65%;
+    }
+    .departments .dep-title a{
+        width: 25%;
+        margin-right: 5%;
+    }
+    .
 }
