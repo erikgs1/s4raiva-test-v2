@@ -1,4 +1,7 @@
 @media screen and (max-width: 1024px){
+    .promo-ad img{
+        padding: 0;
+    }
     header .search .responsive-menu{
         display: block;
         height: 10px;
@@ -43,5 +46,21 @@
     }
     header .main-menu{
         display: none;
+    }
+    .box-form .form-box-title img{
+        margin: 5% 0 0 0;
+    }
+    .box-form .form-box-title p{
+        margin: 0 0 0 10%;    
+    }
+    .box-form p{
+        font-size: 16px;
+    }
+    .box-form select{
+        width: 90% !important;
+    }
+    .box-form form button {
+        margin: 0 40% 5% 35%;
+        display: block;
     }
 }
