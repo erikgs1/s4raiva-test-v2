@@ -1,4 +1,5 @@
 @media screen and (max-width: 1024px){
+    
     .promo-ad img{
         padding: 0;
     }
@@ -68,7 +69,19 @@
     }
     .departments .dep-title a{
         width: 25%;
-        margin-right: 5%;
+        margin-right: 5%;d
     }
-    .
+    .themes .themes-title{
+        margin: 0;
+    }
+    .themes .themes-title .title{
+        font-size: 18px;
+        width: 65%;
+        margin-left: 10px;
+        margin-bottom: 5%;
+        line-height: 25px;
+    }
+    .themes .themes-title a{
+        width: 25%;
+    }
 }
