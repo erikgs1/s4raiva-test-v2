@@ -1,5 +1,7 @@
 @media screen and (max-width: 1024px){
-    
+    .responsive-br{
+        display: block;
+    }
     .promo-ad img{
         padding: 0;
     }
@@ -69,7 +71,7 @@
     }
     .departments .dep-title a{
         width: 25%;
-        margin-right: 5%;d
+        margin-right: 5%;
     }
     .themes .themes-title{
         margin: 0;
@@ -166,5 +168,21 @@
     }
     .box-radius .col-radius p {
         padding: 11% !important;
+    }
+    .box-txt .bloc-txt {
+        width: 90%;
+        border-bottom: 1px solid #ccc;
+        border-radius: 0;
+    }
+    .box-txt .bloc-txt .title-txt{
+        font-size: 18px;
+        color: #24282b;
+        font-weight: bold;
+    }
+    .box-txt .bloc-txt span p{
+        padding: 30px 25px 10px 0;
+    }
+    .copyright{
+        padding: 70px 10px;
     }
 }

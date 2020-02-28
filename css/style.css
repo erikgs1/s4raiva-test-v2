@@ -11,6 +11,9 @@ body {
     font-weight: bold !important;
     text-transform: uppercase;
 }
+.responsive-br{
+    display: none;
+}
 /* =========== Presets =========== */
 
 /* =========== Header =========== */
