@@ -31,14 +31,16 @@
         width: 50%;
     }
     header .search nav ul .img-heart img{
-        margin: 20% 15% 0 0%;
+        padding: 10% 5% 1% 0%;
+        margin: 0;
         width: 50%;
     }
     header .search nav ul .img-car{
         width: 50%;
     }
     header .search nav ul .img-car img{
-        margin: 20% 0 0 0;
+        padding: 10% 5% 1% 0%;
+        margin: 0;
         width: 50%;
         float: left;
     }
