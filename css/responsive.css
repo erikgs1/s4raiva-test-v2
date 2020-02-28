@@ -155,4 +155,16 @@
         padding: 0;
         margin: 0;
     }
+    .box-radius .col-radius{
+        width: 47%;
+        min-height: 220px;
+        margin-bottom: 3%;
+        margin-left: 2%;
+    }
+    .box-radius .col-radius img{
+        margin: 0 auto;
+    }
+    .box-radius .col-radius p {
+        padding: 11% !important;
+    }
 }
