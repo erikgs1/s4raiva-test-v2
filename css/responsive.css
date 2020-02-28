@@ -5,14 +5,8 @@
     .promo-ad img{
         padding: 0;
     }
-    header .search .responsive-menu{
+    header .search .responsive-menu-button{
         display: block;
-        height: 10px;
-        width: 10px;
-        background-color: #000;
-        float: left;
-        position: relative;
-
     }
     header .search .logo-top{
         padding: 0;
