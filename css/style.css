@@ -67,8 +67,47 @@ header .search .responsive-menu{
     left: 0;
     top: 0;
     bottom: 0;
-    background-color: #ccc;
+    background-color: #efefef;
     z-index: 2;
+}
+header .search .responsive-menu .responsive-buttons li{
+    float: left;
+    width: 10%;
+}
+header .search .responsive-menu .responsive-buttons .enter-button{
+    width: 30%;
+    margin-bottom: 5%;
+}
+header .search .responsive-menu .responsive-buttons .enter-button a{
+    padding: 15px 30px;
+    border-radius: 40px;
+    text-decoration: none;
+    display: inline-block;
+    background: #1d6dff;
+    color:#fff;
+    margin: 5% 0 0 5%;
+    font-size: 12px;
+    font-weight: bold;
+}
+header .search .responsive-menu .responsive-buttons li p{
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 60%;
+    margin-left: 10px;
+    
+}
+header .search .responsive-menu .responsive-buttons .register-button{
+    width: 60%;
+}
+header .search .responsive-menu .responsive-buttons .register-button a{
+    text-decoration: none;
+    display: inline-block;
+    color: #818181;
+    margin: 10% 0 0 15%;
+    font-size: 12px;
+    font-weight: bold;
 }
 /* =========== //Responsive Menu =========== */
 /* =========  Search Logo ========= */
