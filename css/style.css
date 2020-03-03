@@ -62,8 +62,7 @@ header .search .responsive-menu-button a .resp-icon{
 
 header .search .responsive-menu{
     position: fixed;
-    width: 85%;
-    height: 100%;
+    width: 300px;
     left: 0;
     top: 0;
     bottom: 0;
@@ -85,7 +84,7 @@ header .search .responsive-menu .responsive-buttons .enter-button a{
     display: inline-block;
     background: #1d6dff;
     color:#fff;
-    margin: 5% 0 0 5%;
+    margin: 5% 0 0 10%;
     font-size: 12px;
     font-weight: bold;
 }
@@ -95,19 +94,38 @@ header .search .responsive-menu .responsive-buttons li p{
     display: inline-block;
     vertical-align: middle;
     padding-top: 60%;
-    margin-left: 10px;
+    margin-left: 20px;
     
 }
 header .search .responsive-menu .responsive-buttons .register-button{
     width: 60%;
 }
 header .search .responsive-menu .responsive-buttons .register-button a{
+    padding: 15px 30px;
+    border-radius: 40px;
     text-decoration: none;
     display: inline-block;
     color: #818181;
-    margin: 10% 0 0 15%;
+    margin: 2% 0 0 10%;
     font-size: 12px;
     font-weight: bold;
+    border: 1px solid #818181;
+}
+header .search .responsive-menu .responsive-options{
+    width: 100%;
+    float: left;
+}
+header .search .responsive-menu .responsive-options .options{
+    width: 100%;
+    float: left;
+}
+header .search .responsive-menu .responsive-options .options a{
+    padding: 25px 0 0 20px;
+    float: left;
+    text-decoration: none;
+    color: #24282b;
+    font-size: 13px;
+    font-weight: normal;
 }
 /* =========== //Responsive Menu =========== */
 /* =========  Search Logo ========= */
